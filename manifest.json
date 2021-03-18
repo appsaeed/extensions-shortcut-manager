@@ -1,0 +1,20 @@
+{
+   "manifest_version": 2,
+   "name": "Shortcut manager website link",
+   "description": "Shortcut manager website and social network from anywhere just one click open site with new tab by shortcut manager website build by appsaeed",
+   "version": "3.8.0",
+   "browser_action": {
+      
+     "default_popup": "popup.html",
+     "default_icon": "img/icon-128.png",
+     "icons": {
+        "16": "img/icon-16.png",
+        "48": "img/icon-48.png",
+       "128": "img/icon-128.png"
+     }
+   },
+   "author": "appsaeed7@gmail.com",
+   "homepage_url": "https://developersaeed.000webhostapp.com/",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "permissions": [ "contextMenus", "tabs", "storage", "activeTab", "\u003Call_urls>", "tts", "alarms", "notifications", "bookmarks" ]
+ }

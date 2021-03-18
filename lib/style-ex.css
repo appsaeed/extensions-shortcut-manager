@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+body{
+    background-attachment: fixed;
+    background-size:cover ;
+    background-position:center top;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: auto;
+    padding: 10px;
+}
+
+img{
+    width: 24px;
+    height: 24px;
+}
+
+.socil_area {
+    display: inline-block;
+}
+a#card {
+    color: white;
+    text-decoration: none;
+}
+.icon {
+    width: 50px;
+    height: 50px;
+    padding: 10px 1px 0px 14px;
+    position: relative;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 0px #929292;
+    top: 6px;
+    left: 3ch;
+}
+.socil_area {
+    display: inline-block;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    overflow: hidden;
+}
+.socil_area:hover{
+    background: #00000017;
+    border-radius: 3px;
+}
+.socil_area:hover div.trash{
+    display: block;
+}
+.detail {
+    position: relative;
+    bottom: -18px;
+    text-align: center;
+    /* background: white;
+    color: black; */
+    font-size:small;
+    border-radius: 12px;
+}
+
+
+
+
+/*======================================================
+=========================================================*/
+
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+    border: 2px solid #f1f1f1;
+    width: 300px;
+    margin: auto;
+    border-radius: 10px;
+    background: #2125291f;
+    display:none;
+    /* margin: 20px; */
+    /* display: flex; */
+    /* float: right; */
+}
+
+/* Add styles to the form container */
+.form-container {
+  /* max-width: 300px; */
+  padding: 10px;
+  /* background-color: white; */
+  color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 6px;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 30px;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 0px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 30px;
+    opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+img.trash-src {
+    width: 12px;
+    height: auto;
+}
+
+div.trash {
+    position: absolute;
+    padding: 6px 10px;
+    z-index: 10;
+    border-radius: 2px;
+    display: none;
+}
+div.trash:hover{
+    background: #00000038;
+}
+
+/* edit icon css start */
+
+img.edit_icon {
+    width: 18px;
+    height: auto;
+}
+
+.customize {
+    padding: 6px 14px;
+    border-radius: 3px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 10px;
+}
+.customize:hover{
+    background: #54535342;
+}

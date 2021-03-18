@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/style-ex.css">
+    <script src="./jquery.js"></script>
+    <title>Manage website link</title>
+</head>
+<body>
+    <div class="main" ></div>
+    
+    <div class="form-popup inset-form" id="myForm">
+        <form  onsubmit="return false" class="form-container">
+          <button id="cancel"  class="btn">Cancel</button>
+
+          <label for="psw"><b>Shortcut name</b></label>
+          <input id="_username" type="text" placeholder="Shortcut name" name="name" required>
+
+          <label for="psw"><b>Shortcut url</b></label>
+          <input id="_url" type="text" placeholder="Shortcut url name" name="url" required>
+      
+          <button id="submit" type="submit" class="btn">Save</button>
+        </form>
+      </div>
+
+    <div class="form-popup" id="bgurlfrom">
+        <form  onsubmit="return false" class="form-container">
+          <button id="_cancel"  class="btn">Cancel</button>
+
+          <label for="psw"><b>Background Image ulr</b></label>
+          <input id="getimgulr" type="text" placeholder="Background Image url" name="bgurl" required>
+      
+          <button id="saveulr" type="submit" class="btn">Save</button>
+        </form>
+      </div>
+
+        <div class="customize"><img class="edit_icon" src="./img/pencil.svg" alt="Edit icon" ></ul></div>
+    <script src="./lib/script.js"></script>
+</body>
+</html>
